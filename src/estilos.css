@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    background-color: #099;
+    padding: 10px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    gap: 1rem;
+}
+.contenedor{
+    border: #55d solid 4px;
+    background-color: #bbb;
+    margin: auto;
+}
+.contenedor > div {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+.captura > * {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .contenedor{
+        width: 400px;
+    }
+}
